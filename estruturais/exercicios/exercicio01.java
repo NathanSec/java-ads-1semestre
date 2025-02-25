@@ -9,7 +9,9 @@ public class exercicio01 {
         
         System.out.println("Digite o sexo da pessoa:");
         sexo = sc.next().charAt(0);
-        if(sexo == 'M' || sexo == 'F'){
+
+	//  || é OU e && é E
+        if(sexo == 'M' || sexo == 'm' || sexo == 'F' || sexo == 'f'){
             System.out.println("Sexo binário!");
         }
         else{
