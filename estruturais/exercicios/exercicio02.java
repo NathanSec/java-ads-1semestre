@@ -1,4 +1,4 @@
-package com.mycompany.estruturascondicionais;
+ppackage com.mycompany.estruturascondicionais;
 
 import java.util.Scanner;
 
@@ -15,6 +15,8 @@ public class exercicio02 {
         }
         if(number>=0){
             System.out.println("é positivo.");
+        }
+        else if(number == 0){
         }
         else{
             System.out.println("é negativo");
