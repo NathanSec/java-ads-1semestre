@@ -1,7 +1,7 @@
 package com.mycompany.lacorepeticao;
 import java.util.Scanner;
 
-public class somaimpares {
+public class ex1somaimpares {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);

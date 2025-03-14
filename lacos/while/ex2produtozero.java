@@ -2,12 +2,11 @@ package com.mycompany.lacorepeticao;
 
 import java.util.Scanner;
 
-public class produtozero {
+public class ex2produtozero {
 
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
         int total = 1;
         int i = 1;
 
