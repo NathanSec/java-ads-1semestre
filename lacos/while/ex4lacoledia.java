@@ -1,3 +1,4 @@
+package com.mycompany.lacorepeticao;
 import java.util.Scanner;
 
 public class ex4lacoledia {
@@ -21,6 +22,7 @@ public class ex4lacoledia {
 
             if (nota1 < 0 || nota2 < 0 || nota3 < 0){
                 numBreak = -1;
+                System.out.println("Nota Inválida");
             } else {
                 soma = nota1 + nota2 + nota3;
                 media = soma / 3;
